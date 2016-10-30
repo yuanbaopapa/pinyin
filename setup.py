@@ -14,7 +14,7 @@ setup(
     entry_points={"console_scripts": ["pinyin = pinyin.cmd:pinyin", ]},
     url='http://lxyu.github.io/pinyin/',
     license="BSD",
-    long_description=open('README.rst').read(),
+    long_description=open('README.rst',encoding='utf8').read(),
     classifiers=[
         "Topic :: Software Development",
         "Development Status :: 4 - Beta",
